@@ -11,6 +11,27 @@
 </head>
 
 <body>
+    <script>
+        var today = new Date(); //현재 날짜 가져오기(얘를 없애면 현재 시간 분이 적용이 안됨)
+        var h = today.getHours();   //현재 시간 추출하기
+        var m = today.getMinutes(); //현재 분 추출하기
+        var pwd = prompt(h+ "시 " + m + "분에 방문하신 " + "방문자님 반갑습니다 🥰 \n" + "Quiz!! 함께 해서  " + "[1 : wecode] or [2 : ourcode] "+"(번호만 입력해주세요!)") //팝업찹 생성
+        var goodUrl  = "file:///Users/eden/wecode/intro/index.html"
+        if(pwd == 1) {
+            alert("정답입니다 ! 함께 해서 wecode❤️")
+            location = goodURL
+        }
+        else if(pwd == 2) {
+            alert("틀렸습니다 !! 힌트 보고 오세요 !!")
+            location = "https://wecode.co.kr/"  // 페이지가 wecode로 연결
+            window.open("index.html")   // 새로운 창으로 새 퀴즈 시작
+        }
+        else {
+            alert("보기에 있는 숫자를 제대로 입력하셨나요 ?")   // 팝업 뜨고 확인 누르면 다시 입력창으로 감 닫기 누르면 null로 변경
+            location = pwd
+        }
+    </script>
+
     <section class="banner">
         <div class="container">
             <div class="sec">
