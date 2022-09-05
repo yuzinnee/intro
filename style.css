@@ -15,11 +15,11 @@
     height:100vh; 
     overflow:auto;
     background:black;
-    scroll-behavior: smooth;
-    scroll-snap-type: y mandatory ;
+    scroll-behavior: smooth;    /* 스크롤 부드럽게 */
+    scroll-snap-type: y mandatory ; /* Y축으로 */
 }
 
-.sec{
+.scr{
     position:relative; 
     width:100%; 
     height:100vh;
@@ -30,80 +30,76 @@
 }
 
 h3{
-    color:#fff; 
+    color:rgb(255, 255, 255); /* I'M A & MOYUJIN글씨 */
     font-size:10vw;
     text-align: center;
 }
-h1{
-    color:#fff; 
-    text-align: center;
-}
-.sec:nth-child(1){
-    background:  black;
+.scr:nth-child(1){  /* I'M A 배경 */
+    background:  rgb(0, 0, 0);
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(2){
+.scr:nth-child(2){   /* D 배경 */
     background: url('img2.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(3){
+.scr:nth-child(3){   /* E 배경 */
     background: url('img3.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(4){
+.scr:nth-child(4){   /* V 배경 */
     background: url('img4.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(5){
+.scr:nth-child(5){   /* E 배경 */
     background: url('img5.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(6){
+.scr:nth-child(6){   /* L 배경 */
     background: url('img6.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(7){
+.scr:nth-child(7){   /* O 배경 */
     background: url('img7.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(8){
+.scr:nth-child(8){   /* P 배경 */
     background: url('img8.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(9){
+.scr:nth-child(9){   /* E 배경 */
     background: url('img9.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(10){
+.scr:nth-child(10){   /* R 배경 */
     background: url('img10.jpg') ;
     background-size: cover;
     background-attachment: fixed; 
     background-position: center; 
 }
-.sec:nth-child(11){
+.scr:nth-child(11){     /* MOYUJIN 배경 */
     background: black;
     background-attachment: fixed; 
     background-position: center; 
 } 
-.sec:nth-child(12){
+.scr:nth-child(12){   /* yuzinnee's  배경 */
     background: white;
     background-attachment: fixed; 
     background-position: center; 
@@ -119,12 +115,12 @@ h1{
     display:flex;
     justify-content: center;
 }
-.content h2 span{
+.content h2 span{   /*developer 글씨*/
     position:sticky;
     top:0;
     line-height:100vh;
     height:100vh; 
-    color:#fff;
+    color:rgb(255, 255, 255);
     font-size:14vw;
     margin-top:calc(100vh * var(--i));
 
