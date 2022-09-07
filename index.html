@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>yuzinne intro</title> <!--링크이름-->
-    <link rel="stylesheet" href="style.css"/>   <!--css 연결 -->
+    <title>yuzinne intro</title>
+    <!--링크이름-->
+    <link rel="stylesheet" href="style.css" />
+    <!--css 연결 -->
 </head>
 
 <body>
@@ -11,13 +14,13 @@
         var today = new Date(); //현재 날짜 가져오기(얘를 없애면 현재 시간 분이 적용이 안됨)
         var h = today.getHours();   //현재 시간 추출하기
         var m = today.getMinutes(); //현재 분 추출하기
-        var pwd = prompt(h+ "시 " + m + "분에 방문하신 " + "방문자님 반갑습니다 🥰 \n" + "Quiz!! 함께 해서  " + "[1 : wecode] or [2 : ourcode] "+"(번호만 입력해주세요!)") //팝업찹 생성
-        var goodUrl  = "file:///Users/eden/wecode/intro/index.html"
-        if(pwd == 1) {
+        var pwd = prompt(h + "시 " + m + "분에 방문하신 " + "방문자님 반갑습니다 🥰 \n" + "Quiz!! 함께 해서  " + "[1 : wecode] or [2 : ourcode] " + "(번호만 입력해주세요!)") //팝업찹 생성
+        var goodUrl = "file:///Users/eden/wecode/intro/index.html"
+        if (pwd == 1) {
             alert("정답입니다 ! 함께 해서 wecode❤️")
             location = goodURL
         }
-        else if(pwd == 2) {
+        else if (pwd == 2) {
             alert("틀렸습니다 !! 힌트 보고 오세요 !!")
             location = "https://wecode.co.kr/"  // 페이지가 wecode로 연결
             window.open("https://yuzinnee.github.io/intro/")   // 새로운 창으로 새 퀴즈 시작
@@ -35,7 +38,8 @@
             </div>
         </div>
 
-        <div class="scr"></div> <!--DEVELOPER-->
+        <div class="scr"></div>
+        <!--DEVELOPER-->
         <div class="scr"></div>
         <div class="scr"></div>
         <div class="scr"></div>
@@ -44,32 +48,35 @@
         <div class="scr"></div>
         <div class="scr"></div>
         <div class="scr"></div>
-        
+
         <div class="scr">
             <h3>MOYUJIN</h3>
         </div>
 
-        <div class="scr"> <!--깃허브-->
-            <img src ="github.png" alt="https://www.flaticon.com/free-icons/github" width="50px;" height="50px">
-            <a href="https://github.com/yuzinnee/WECODE" class="ct"><h2> yuzinnee's Github<br>(click me!👆👆👆)</h2></a>
+        <div class="scr">
+            <!--깃허브-->
+            <img src="github.png" alt="https://www.flaticon.com/free-icons/github" width="50px;" height="50px">
+            <a href="https://github.com/yuzinnee/WECODE" class="ct">
+                <h2> yuzinnee's Github<br>(click me!👆👆👆)</h2>
+            </a>
         </div>
 
         <div class="content">
             <h2>
-                    <span style="--i:1;">d</span>
-                    <span style="--i:2;">e</span>
-                    <span style="--i:3;">v</span>
-                    <span style="--i:4;">e</span>
-                    <span style="--i:5;">l</span>
-                    <span style="--i:6;">o</span>
-                    <span style="--i:7;">p</span>
-                    <span style="--i:8;">e</span>
-                    <span style="--i:9;">r</span>
+                <span style="--i:1;">d</span>
+                <span style="--i:2;">e</span>
+                <span style="--i:3;">v</span>
+                <span style="--i:4;">e</span>
+                <span style="--i:5;">l</span>
+                <span style="--i:6;">o</span>
+                <span style="--i:7;">p</span>
+                <span style="--i:8;">e</span>
+                <span style="--i:9;">r</span>
             </h2>
         </div>
 
-        
+
     </section>
 </body>
-</html>
 
+</html>
